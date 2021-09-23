@@ -1,3 +1,45 @@
 body {
   background: #fff;
 }
+.img_instagram{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto
+
+}
+
+.img_instagram:hover{
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+.container{
+  padding: 350px;
+  width: 900px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img_logo{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding:0px;
+  padding-left: 200px;
+  justify-content: center;
+  color:#FF007F;
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:900;
+}
+
